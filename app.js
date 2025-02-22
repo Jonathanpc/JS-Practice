@@ -86,3 +86,60 @@
 // firstName.toUpperCase();
 
 // 5.Slice
+
+// Javascript Objects
+// const person = {
+//   firstName: "Jonathan",
+//   lastName: "PC",
+//   age: 21,
+//   location: ["Planet", "Earth"],
+//   isProgrammer: true,
+// };
+
+// // Accessing items from Objects
+// console.log(person.firstName); //Will output firstName value
+
+// console.log(person["firstName"]); //Will output firstName value
+
+// situational for example:
+// const person2 = {
+//   10: "ten,",
+// };
+// console.log(person["10"]);       //This would be needed to avoid syntax errors
+
+//Adding a value into an Object
+const person3 = {
+  firstName: "Jonathan",
+};
+
+person3.lastName = "PC";
+person3.location = ["Planet", "Earth"];
+
+console.log(person3);
+
+//Deleting a value from the Object
+delete person3.lastName;
+
+// Challenge for Objects:
+
+//1. Create object name(car)
+//2. add (type, model, color) as properties
+//3. check the type of object
+//4. Update the type property to Toyota
+//5. Add new property wheels
+//6. log car to the console
+
+// const car = {
+//   type: "BMW",
+//   model: "M240",
+//   color: "grey",
+// };
+
+// console.log(car.type);
+
+// car.type = "Toyota";
+// car.wheels = 4;
+
+// console.log(car);
+
+//End timestamp of video: 3:26:22
