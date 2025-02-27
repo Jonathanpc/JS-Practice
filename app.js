@@ -108,17 +108,17 @@
 // console.log(person["10"]);       //This would be needed to avoid syntax errors
 
 //Adding a value into an Object
-const person3 = {
-  firstName: "Jonathan",
-};
+// const person3 = {
+//   firstName: "Jonathan",
+// };
 
-person3.lastName = "PC";
-person3.location = ["Planet", "Earth"];
+// person3.lastName = "PC";
+// person3.location = ["Planet", "Earth"];
 
-console.log(person3);
+// console.log(person3);
 
-//Deleting a value from the Object
-delete person3.lastName;
+// //Deleting a value from the Object
+// delete person3.lastName;
 
 // Challenge for Objects:
 
