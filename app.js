@@ -143,3 +143,8 @@
 // console.log(car);
 
 //End timestamp of video: 3:26:22
+
+// Functions Basics
+function greet() {
+  console.log("Hello from function");
+}
